@@ -28,7 +28,7 @@ export default function Button4() {
 
   return (
     <>
-      <Button variant="primary" onClick={() => setModalShow(true)}>
+      <Button className="btn-lg"variant="primary" onClick={() => setModalShow(true)}>
         4
       </Button>
 
