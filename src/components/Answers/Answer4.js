@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
-export default function Answer2() {
+export default function Answer4() {
     const [users, setUsers] = useState([]);
 
     useEffect(() => {

@@ -8,6 +8,7 @@ import Button1 from './Buttons/Button1';
 import Button2 from './Buttons/Button2';
 import Button3 from './Buttons/Button3';
 import Button4 from './Buttons/Button4';
+import Button5 from './Buttons/Button5';
 
 export default function UserTable() {
 
@@ -96,6 +97,9 @@ export default function UserTable() {
             </div>
             <div className="container text-center mt-1 pb-2">
                 <Button1 /> <Button2 /> <Button3 /> <Button4 />
+            </div>
+            <div className="container text-center mt-1 pb-2">
+                <Button5 />
             </div>
         </div>
     );
